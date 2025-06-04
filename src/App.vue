@@ -9,7 +9,7 @@
             <b-nav-item to="/dashboard">Dashboard</b-nav-item>
             <b-nav-item to="/tasks">Tasks</b-nav-item>
             <b-nav-item to="/history">History</b-nav-item>
-            <b-nav-item @click="logout" class="logout-link">Logout</b-nav-item>
+            <b-nav-item @click="logout" class="logout-link">LogOut</b-nav-item>
           </b-navbar-nav>
         </b-collapse>
       </b-container>
