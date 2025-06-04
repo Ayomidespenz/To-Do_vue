@@ -50,6 +50,7 @@ const completionRate = computed(() => {
 })
 
 // Methods
+
 const deleteTask = (id) => {
   tasks.value = tasks.value.filter((t) => t.id !== id)
   localStorage.setItem('tasks', JSON.stringify(tasks.value))
